@@ -1,0 +1,68 @@
+git config --global user.name " "
+
+git config --global user.email " "
+
+git config --global color.ul true
+
+git config --global --list
+
+Empieza a monitoriar proyecto
+git init
+
+Agregar todo
+git add -A
+
+Guardar cambios
+git commit -m "primer_commit"
+git commit -m "leo 280819 ver detalle planificacion"
+
+sin tocar codigo
+git reset --soft aad2519837febd8d25555a60e444e6f12c0398fd
+
+borra todo codigo
+git reset --hard aad2519837febd8d25555a60e444e6f12c0398fd
+
+git status
+
+git log
+
+git log > commits.txt
+
+git checkout 93ead9461120411d38ee8e11701d4378c8182025
+
+Dirigir a master
+git checkout leo
+git checkout master
+git checkout lehs
+
+Ver los branch
+git branch
+
+Crear branch
+git branch leo
+
+Eliminar branch
+git branch -d leo
+
+Adsorver a testeo desde master
+git merge origin/leo
+
+git push origin master
+
+GitHub
+
+Bajar proyecto
+git clone https://gitlab.com/perolehs/dinamics.git
+
+Conectar con github
+git remote add origin https://github.com/MugLeo/django.git
+
+ver estatus con github
+git remote -v
+
+desconectar con github
+git remote remove origin
+
+git push origin master
+
+git pull origin master
